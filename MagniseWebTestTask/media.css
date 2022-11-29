@@ -1,0 +1,118 @@
+@media screen and (max-width: 1200px) {
+    .mainScreen{
+        justify-content: center;
+    }
+    .mainScreenInfo{
+        margin-right: 0;
+        width: 700px;
+    }
+    .secondScreenInfoThree{
+        width: 100%;
+    }
+    .secondScreenInfoText{
+        width: 100%;
+    }
+    .secondScreenBlocksOne{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        grid-column-gap: 30px;
+        width: 650px;
+        justify-content: center;
+    }
+    .secondScreen{
+        display: block;
+        height: 1700px;
+    }
+    .secondScreenBlocks{
+        display: flex;
+        justify-content: center;
+    }
+    .swiper{
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .mainScreen{
+        background-image: url(./img/Mobile_Hero.png);
+        background-position: center;
+    }
+    .mainScreenInfoText{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .mainScreenInfoText p{
+        width: 330px;
+        font-size: 30px;
+    }
+    .mainScreenInfo{
+        width: 100%;
+    }
+    .mainScreen{
+        align-items: flex-start;
+        height: 943px;
+    }
+    .mainScreenInfoLogo{
+        margin-top: 22px;
+    }
+    .mainScreenInfoDescription{
+        width: 100%;
+        font-size: 24px;
+    }
+    .mainScreenInfoTextSpan{
+        font-size: 30px;
+        width: 100% ;
+    }
+    .mainScreenInfoFields{
+        width: 100%;
+    }
+    .mainScreenInfoDescription{
+        margin-bottom: 10px;
+    }
+    .mainScreenInfoBlock{
+        margin-top: 200px;
+        width: 360px;
+        padding-top: 20px;
+        opacity: 1;
+        border-radius: 21px;
+        background: rgba(0,0,0,0.5);
+        backdrop-filter: blur(21px); 
+        -webkit-backdrop-filter: blur(21px);
+        padding-bottom: 40px;   
+    }
+    .mainScreenInfoBlockPosition{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mainScreenInfoDescription{
+        margin-top: 0px;
+    }
+    .secondScreenInfoThree{
+        display: block;
+        width: 100%;
+    }
+    .secondScreenBlocks{
+        display: none;
+    }
+    .swiper{
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+    .secondScreen{
+        height: 1250px;
+    }
+    .secondScreenInfoBtn{
+        display: none;
+    }
+    .secondScreenInfoThreeComponent{
+        width: 100%;
+        display: block;
+    }
+    .secondScreenInfoThreeBlock{
+        margin-bottom: 60px;
+    }
+
+}

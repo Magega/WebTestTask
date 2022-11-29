@@ -1,0 +1,10 @@
+.secondScreenBlocksItem:hover{
+    box-shadow: 10px 10px 10px #00000059;
+    transform: translateY(-10px);
+    transition: 0.5s ease-in-out;
+}
+button:hover{
+    box-shadow: 5px 5px 10px #00000059;
+    transform: translateY(-2px);
+    transition: 0.5s ease-in-out;
+}
